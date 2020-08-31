@@ -3,7 +3,7 @@
 #### By using Terraform
 #### =========================================
 
-We will website and serve the static contents using AWS S3 in a much simpler way. 
+We will create a website and serve the static contents using AWS S3 in a much simpler way. 
 
 Explanation of the Infrastructure diagram
 

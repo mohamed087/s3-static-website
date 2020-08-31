@@ -39,17 +39,17 @@ POLICY
 resource "aws_s3_bucket_object" "index" {
   bucket       = "${aws_s3_bucket.www.bucket}"
   key          = "index.html"
-  source       = "html/index.html"
+  source       = "../../html/index.html"
   content_type = "text/html"
-  etag         = "${md5(file("html/index.html"))}"
+  etag         = "${md5(file("../../html/index.html"))}"
   acl          = "public-read"
 }
 
 resource "aws_s3_bucket_object" "error" {
   bucket       = "${aws_s3_bucket.www.bucket}"
   key          = "error.html"
-  source       = "html/error.html"
+  source       = "../../html/error.html"
   content_type = "text/html"
-  etag         = "${md5(file("html/error.html"))}"
+  etag         = "${md5(file("../../html/error.html"))}"
   acl          = "public-read"
 }
