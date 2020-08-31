@@ -1,7 +1,7 @@
-# =============================================
+# =========================================
 # Static website backed by an S3 bucket in AWS.
 # By using Terraform
-# =============================================
+# =========================================
 
 We will website and serve the static contents using AWS S3 in a much simpler way. 
 
